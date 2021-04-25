@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial scale=1">
+	<title>University Website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/logo.png">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+	<h1>Contact US</h1>
+	</section>
+	
+	<!-----contact us----->
+	
+	<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11629.16616160286!2d27.8833326!3d43.2243468!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4548e7b5e70cd%3A0xa6844c9f2106172c!2z0JTQvtC8INCc0LvQsNC00L7RgdGC!5e0!3m2!1sbg!2sbg!4v1617949559983!5m2!1sbg!2sbg" 
+	width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+	
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+					<h5>XYZ Road,ABS Bulding</h5>
+					<p> Bulgaria,Varna</p>
+					</span>
+				</div>
+				
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+					<h5>+359 02560256</h5>
+					<p> Monday to Sunday, 10am-10pm</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+					<h5>info@abv.bg</h5>
+					<p> Email us your query</p>
+					</span>
+				</div>
+				</div>
+				
+				
+			<div class="contact-col">
+				<form action="form-handler.php" method="post">
+					<input type="text" name="name"  placeholder="Enter your name" required>
+					<input type="email" name="email" placeholder="Email address" required>
+					<input type="text" name="subject" placeholder="Enter your subject" required>
+					<textarea rows="8" name="message" placeholder="message" required></textarea>
+					<button type="submit" class="hero-btn red-btn">Send Message</button>
+					
+					
+				</form>
+				
+				
+				
+				</div>
+		</div>
+		
+		
+	</section>
+	
+	
+	<!-----footer----->
+	
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
+		It has roots in a piece of classical Latin literature from 45 BC<br>
+		making it over 2000 years old. Richard McClintock
+		</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		<div>
+		<p>Made with  <i class="fa fa-heart-o"></i> by Kalin</p>
+	
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+<!-----JavaScript for Menu----->
+<script>
+
+var navLinks =document.getElementById("navLinks");
+
+function showMenu(){
+navLinks.style.right="0";
+}
+
+function hideMenu(){
+navLinks.style.right="-20rem";
+}
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
