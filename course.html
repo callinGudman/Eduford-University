@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial scale=1">
+	<title>University Website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/logo.png">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+	<h1>Our Courses</h1>
+	</section>
+	
+	
+	<!-----Course----->
+	<section class="course">
+		<h1>Courses we offer </h1>
+		<p>Due to the impact of COVID-19 we're changing how the course is delivered.</p>
+		<div class="row">
+			<div class="course-col">
+				<h3>Intermediate</h3>
+				<p>These programmes provide a strong mathematical training,
+					and mathematical techniques help you to deal with new ideas that often seem counterintuitive,
+					such as string theory, black holes, superconductors and chaos theory.
+				</p>
+				
+			</div>
+			<div class="course-col">
+				<h3>Degree</h3>
+				<p>College degrees in the U.S are offered at four levels: associate's, bachelor's, master's and doctorate.
+					Many programs are available at each of these levels including vocational degrees such as the Associate of
+					Science (A.S.) and academic degrees such as a Master of Science (M.S.).
+				</p>
+				
+			</div>
+			<div class="course-col">
+				<h3>Post Graduation</h3>
+				<p>You will be able to choose from a series of taught modules to ensure that you develop the correct academic
+					background and skills to excel in research. You will also be offered a flexible but guided programme of study,
+					which will enable you to develop your leadership, information technology and professional skills.
+				</p>
+				
+			</div>
+		</div>
+	</section>
+	
+	<!-----Facilities----->
+	
+	<section class="facilities">
+		<h1>Our Facilities</h1>
+		<p>We invest heavily in our facilities and learning resources, ensuring that our students
+			have access to everything they need.</p>
+		
+		<div class="row">
+			<div class="facilities-col">
+				<img src="images/library.png">
+				<h3>World Class Library</h3>
+				<p>The Sir Duncan Rice Library is one of the largest and best equipped in the U.S., offering an outstanding
+					learning experience.Our libraries have been collecting resources and supporting learning since 1495.
+				</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/basketball.png">
+				<h3>Largest Playground</h3>
+				<p>The Olympic standard New Youk Sports Village and Aquatic Centre is the premier sports facility
+					in the North East of U.S.The facility is designed to be somewhere for people to enjoy,
+					train and compete in sporting activities.
+				</p>
+			</div>
+			<div class="facilities-col">
+				<img src="images/cafeteria.png">
+				<h3>Tasty and Healthy Food</h3>
+				<p>Researchers from six U.S. universities and colleges found consumers ate vegetables 29% more often when
+					they had labels based on their taste than when they were labeled based on health attributes.
+				</p>
+			</div>
+		</div>  
+	</section>
+
+	
+	
+	
+	
+	
+	
+	
+	<!-----footer----->
+	
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>We support more than 19,000 students on our undergraduate, postgraduate and professional courses. 169.
+			Different nationalities.<br>
+			Our ethos is defined by four core values: inclusivity; sustainability; creativity; partnership.
+		</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		<div>
+		<p>Made with  <i class="fa fa-heart-o"></i> by Kalin</p>
+	
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+<!-----JavaScript for Menu----->
+<script>
+
+var navLinks =document.getElementById("navLinks");
+
+function showMenu(){
+navLinks.style.right="0";
+}
+
+function hideMenu(){
+navLinks.style.right="-20rem";
+}
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
